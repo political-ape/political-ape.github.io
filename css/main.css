@@ -57,6 +57,26 @@ li a:active {
     color: white;
 }
 
+@media screen and (min-width : 200px) and (max-width : 360px) {
+    pre {
+        margin-bottom: 0;
+        text-decoration: none;
+        user-select: none;
+        font-size: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
 .bg {
     position: fixed;
     top: -50%;
